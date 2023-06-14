@@ -1,0 +1,9 @@
+version: 2
+
+sources: source_hcp
+ - name: GMCD
+   schema: db_hcp_2020_24
+   tables:
+     - name: New_form
+       identifier: GMCD_trial
+       description: New source
