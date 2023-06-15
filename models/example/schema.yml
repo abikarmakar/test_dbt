@@ -25,3 +25,9 @@ models:
     columns:
       - name: id
         description: "The primary key for this table"
+  
+  - name: Commcare_runs
+    description: "Copy of commcare export runs"
+    columns:
+      - name: id
+        description: "The primary key for this table"
