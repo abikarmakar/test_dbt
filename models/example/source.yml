@@ -7,4 +7,14 @@ sources:
       - name: GMCD
         identifier: GMCD_trial
         description: new form
-     
+
+      - name: Child_Status
+        identifier: vw_child_status
+        description: new form
+
+  - name: source_It_Info
+    schema: db_it_information
+    tables:
+      - name: Helpdesk
+        identifier: im_it_helpdesk
+        description: new form
